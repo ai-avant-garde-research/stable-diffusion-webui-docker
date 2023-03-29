@@ -14,3 +14,15 @@ https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
   out=LDSR/project.yaml
 https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
   out=LDSR/model.ckpt
+https://huggingface.co/nolanaatama/chomni/resolve/main/ulzzang-6500.pt
+  out=embeddings/ulzzang-6500.pt
+https://huggingface.co/nolanaatama/chomni/resolve/main/chomni.safetensors
+  out=StableDiffusion/chomni.safetensors
+https://huggingface.co/AnonPerson/ChilloutMix/resolve/main/Taiwan-doll-likeness.safetensors
+  out=Lora/Taiwan-doll-likeness.safetensors
+https://huggingface.co/AnonPerson/ChilloutMix/resolve/main/Japanese-doll-likeness.safetensors
+  out=Lora/Japanese-doll-likeness.safetensors
+https://huggingface.co/AnonPerson/ChilloutMix/resolve/main/Korean-doll-likeness.safetensors
+  out=Lora/Korean-doll-likeness.safetensors
+https://huggingface.co/AnonPerson/ChilloutMix/resolve/main/ChilloutMix-ni-fp16.safetensors
+  out=StableDiffusion/ChilloutMix-ni-fp16.safetensors
