@@ -91,15 +91,18 @@ khoya ss additional network
 
 4. Example prompt
 ```
-# kimono good
-(8k, RAW photo, best quality, masterpiece:1.2), clear skin,big breast,(realistic, realistic body,photo-realistic:1.37), ultra-detailed,full body,fullbody,1 girl, solo,beautiful detailed sky,detailed Tokyo street,night,beautiful detailed eyes,beautiful detailed lips,professional lighting, photon mapping, radiosity, physically-based rendering,extremely detailed eyes and face, beautiful detailed eyes,light on face,cinematic lighting,full-body shot,looking at viewer,outdoors,(kimono :1.7)
-
-# kimono neg
-EasyNegative, paintings, sketches, (worst quality:2), (NSFW:2), (nipple:2),(low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,strange fingers,bad hand,signature, watermark, username, blurry, bad feet,bad leg, duplicate, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry,mutated hands and fingers,, EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,strange fingers,bad hand,signature, watermark, username, blurry, bad feet,bad leg, (naked:2)
-
 # settings
+Stable Diffusion checkpoint: ChilloutMix-ni-fp16.safetensors
 Sampling method: DPM++ SDE Keras
 Sampling steps: 20 - 80
+
+# kimono prompt good
+(8k, RAW photo, best quality, masterpiece:1.2), clear skin,big breast,(realistic, realistic body,photo-realistic:1.37), ultra-detailed,full body,fullbody,1 girl, solo,beautiful detailed sky,detailed Tokyo street,night,beautiful detailed eyes,beautiful detailed lips,professional lighting, photon mapping, radiosity, physically-based rendering,extremely detailed eyes and face, beautiful detailed eyes,light on face,cinematic lighting,full-body shot,looking at viewer,outdoors,(kimono :1.7)
+
+# kimono negative prompt
+EasyNegative, paintings, sketches, (worst quality:2), (NSFW:2), (nipple:2),(low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,strange fingers,bad hand,signature, watermark, username, blurry, bad feet,bad leg, duplicate, extra limb, ugly, disgusting, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands, blurry,mutated hands and fingers,, EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,strange fingers,bad hand,signature, watermark, username, blurry, bad feet,bad leg, (naked:2)
+
+
 
 
 # additional network plugin enabled
